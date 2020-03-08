@@ -11,7 +11,7 @@ def msum(p:int, lim:int):
     m = (lim-1)//p
     return p*m*(m+1)//2
 
-n = 1000
+n = int(input())
 a = 3
 b = 5
 
